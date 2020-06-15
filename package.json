@@ -1,9 +1,18 @@
 {
   "name": "ts-snippets",
   "publisher": "accierro",
-  "displayName": "ts-snippets",
+  "displayName": "React Typescript Snippets",
   "description": "TypeScript React Snippets",
   "version": "0.0.1",
+  "keywords": [
+    "React",
+    "Typescript",
+    "React Typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/accierro/react-typescript-snippets.git"
+  },
   "engines": {
     "vscode": "^1.46.0"
   },
