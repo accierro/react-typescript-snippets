@@ -1,0 +1,42 @@
+{
+  "React Functional Component": {
+    "prefix": "tfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "type ${TM_FILENAME_BASE}Props = {",
+      "\t${1}",
+      "};",
+      "",
+      "const ${TM_FILENAME_BASE}:React.FC<${TM_FILENAME_BASE}Props> = (${2}) => {",
+      "\t",
+      "\treturn <div>${3:Have a good coding}</div>",
+      "}",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "React Functional Component with Typescript"
+  },
+  "Typescript Functional Component": {
+    "prefix": "tfcp",
+    "body": [
+      "type ${1:TypeName}= {",
+      "\t${2}",
+      "};",
+      "",
+      "const ${3: ComponentName}:React.FC<${1:TypeName}> = (${4}) => {",
+      "\t",
+      "\treturn <div>${5:Have a good coding}</div>",
+      "}"
+    ]
+  },
+  "Import React": {
+    "prefix": "imr",
+    "body": "import React from 'react';",
+    "description": "Imports React"
+  },
+  "Import Styled Components": {
+    "prefix": "sc",
+    "body": "import styled from 'styled-components'",
+    "description": "Imports Styled Components"
+  }
+}

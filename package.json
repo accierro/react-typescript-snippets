@@ -1,0 +1,21 @@
+{
+  "name": "ts-snippets",
+  "publisher": "accierro",
+  "displayName": "ts-snippets",
+  "description": "TypeScript React Snippets",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
