@@ -1,6 +1,6 @@
 {
-  "React Functional Component": {
-    "prefix": "tfc",
+  "React Default Functional Component": {
+    "prefix": "tfcd",
     "body": [
       "import React from 'react';",
       "",
@@ -15,6 +15,22 @@
       "export default $TM_FILENAME_BASE;"
     ],
     "description": "React Functional Component with Typescript"
+  },
+  "Export React Functional Component": {
+    "prefix": "etfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "type Props = {",
+      "\t${1}",
+      "};",
+      "",
+      "export const ${TM_FILENAME_BASE}:React.FC<Props> = (${2}) => {",
+      "\t",
+      "\treturn <div>${3:Have a good coding}</div>",
+      "}"
+    ],
+    "description": "Export React Functional Component with Typescript"
   },
   "Typescript Functional Component": {
     "prefix": "tfcp",
